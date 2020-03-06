@@ -20,9 +20,9 @@ public class panggil {
             if(menu==1){
                 z++;
                 mn.data_siswa();
-                dt[z]=new Data();
+                dt[z]= new Data();
                 mp[z]= new Mapel();
-                in[z]=new Input();
+                in[z]= new Input();
                 dt[z].data_siswa();
                 mp[z].data_siswa();
                 in[z].data_siswa();
@@ -36,7 +36,7 @@ public class panggil {
                         System.out.print(dt[a].getNama()+"          ");
                         System.out.print(mp[a].getMapel()+"          ");
                         System.out.print(in[a].getNilai()+"          ");
-                        in[a].setPredikat();;
+                        in[a].setPredikat();
                         System.out.print(in[a].getPredikat());
                         System.out.println();
                     }
